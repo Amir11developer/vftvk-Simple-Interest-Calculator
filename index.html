@@ -1,16 +1,68 @@
+
 <html>
-    <head>
+				<head>
+								
+				<meta charset="utf-8">
+    
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Simple Interest Calculator</h1>
+        
+<section><div>
+				
+				<h1>Simple Interest Calculator</h1>
+				
+<span class="fg">Amount</span>
+<span class="h">
+<input type="number"  id="principal"  class="v">
+   </span>
+     <br></br>  
+                
+<span class="fg">Interest Rate</span>
+<span class="h" > 
+ <input type="range" min="0" max="100" step=".1" id="rate" 
+        selected="10.5%"  onchange="show_value(this.value);">
+         <span id="sld">10.5%</span>
+     </span>
+     <br></br>
+        <div>
+        
+       
+<span class="fg">No. of Years</span>
+<span class="h">
+<select id="years" name="br">
+      <option value="1" selected="1">1</option> 
+      				<option value="2" >2</option>
+      				 <option value="3">3</option>
+      				     				<option value="4" >4</option>
+      				 <option value="5">5</option>
+      				 
 
-        Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="number"  id="rate">  <br/>
-        No. of Years <input type="number"  id="years">  <br/>
-        Interest : <span id="result"></span><br>
+      				  </select> 
+      				  </span>
+         <br></br>
+         <span class="fg">
+               <button onclick="compute()" >Compute interest</button ></span>
+               <br></br>
+               <div>
+         <span id="gs" class="fg"></span> 
+                 </div>
+                 <div>
+                 <span id="prat" class="fg"></span>
+                 
+                 </div>
+                
+       <span id="result" class="fg"></span>
+       <div>
+      <span id="ty" class="fg"></span>
+       </div>
+       
+  
+</div>
+<fotter style="margin-left:30px;">© Everyone Can Get Rich</fotter>
 
-        <button onclick="compute()">Compute</button>
+        
+        </section>
     </body>
 </html>
