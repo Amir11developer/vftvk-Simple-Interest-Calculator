@@ -1,4 +1,39 @@
-body {background-color:tan;}
-h1{color:green;}
 
+
+
+body {
+background-color:black;
+}
+section{
+       width: 1200px;
+				height:auto;
+				border-radius:50px;
+				background-color:white;
+	     margin:0p 100px 0px ;
+	    
+	   
+}
+h1 {
+		font-size:80px;
+		text-align:center;
+		color:gray;
+		padding-top:80px;
+		}
+	
+.high{
+				background-color:yellow;
+}
+	
+						
+
+.fg{
+			position:relative;
+			left:450px;
+		
+	}
+.h{
+				position:absolute;
+				left:600px;
+				font-weight:2em;
+}
 
